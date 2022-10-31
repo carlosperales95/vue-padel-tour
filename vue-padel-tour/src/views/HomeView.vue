@@ -2,7 +2,9 @@
   <div class="home">
     <HelloWorld />
     <div class="undertitle">
-        <button href="/register">Registrate</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScwWGUPVgSSKEO62GzD7y8m0qOtBX3z0gqt9ASCWYRFubctJw/viewform?usp=sharing">
+          <button type="button">Registrate</button>
+        </a>
     </div>
   </div>
 </template>
@@ -32,6 +34,11 @@ export default defineComponent({
     align-items: center;
     justify-content: center;
     margin-top: 0vh;
+    transform: rotatex(10deg);
+    // animation: rotateAngle 6s linear infinite;
+    a {
+      text-decoration: none;
+    }
   }
   button {
     display: block;
@@ -40,7 +47,7 @@ export default defineComponent({
     padding: .8em 2.2em;
     cursor: pointer;
 
-    background: #96d0b1;
+    background: #e2f7ec;
     border: none;
     border-radius: .4em;
 

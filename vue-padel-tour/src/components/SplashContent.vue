@@ -89,7 +89,7 @@ export default defineComponent({
   }
 
   h1 {
-    margin:0;
+    margin: 0;
     font-size: 12vh;
     line-height: 15vh;
   }
@@ -193,4 +193,40 @@ export default defineComponent({
     95%  {transform: scale(1.5);}
   }
 
+  @media (min-width: 200px) and (max-width: 768px) {
+    .splash {
+      height: 85%;
+    }
+
+    .midcard {
+      width: 100%;
+      height: 100%;
+    }
+
+    h1 {
+      font-size: 5.2vh;
+      line-height: 10vh;
+    }
+
+    .tittling {
+      margin-top: 20%;
+      ul ~ h1{
+        width: 100%;
+        font-size: 7vh;
+        margin-top: calc(11vh * 3);
+        text-align: center;
+      }
+    }
+
+    .forelayer {
+      height: 20%;
+      margin-top: 2vh;
+    }
+
+    #player {
+      height: 60%;
+      margin-top: 55%;
+      overflow: hidden;
+    }
+  }
 </style>

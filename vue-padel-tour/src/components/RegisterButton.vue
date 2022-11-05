@@ -189,4 +189,12 @@ export default defineComponent({
     99%     {opacity:1;}
   }
 
+  @media (min-width: 320px) and (max-width: 768px) {
+    button {
+      height: 9vh;
+      width: 45vh;
+      font-size: 1.4rem;
+    }
+  }
+
 </style>

@@ -23,3 +23,6 @@ Check [http://localhost:8080/](http://localhost:8080/)
 ![](preview-concept.png)
 
 
+### Is the site hosted?
+
+I hosted a demo on Netlify, **[click here to see it](https://brilliant-sopapillas-865387.netlify.app/)**

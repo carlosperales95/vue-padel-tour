@@ -20,7 +20,7 @@ export default defineComponent({
 <style scoped lang="scss">
 
   .undertitle {
-    width: 100%;
+    width: 99%;
     display: flex;
     // position: absolute;
     align-items: center;
